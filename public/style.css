@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1rem;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Ubuntu Mono", monospace;
+  line-height: 1.25;
+  font-weight: 400;
+  color: #2d3436;
+}
+
+.form-container {
+  margin-left: 2rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
