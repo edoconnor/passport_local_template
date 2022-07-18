@@ -20,12 +20,6 @@ connection.once("open", () => {
   console.log("Connected to MonogoDB");
 });
 
-// mongoose.connection,
-//   {
-//     useNewUrlParser: true,
-//     useUnifiedTopology: true,
-//   };
-
 const UserSchema = new mongoose.Schema({
   username: {
     type: String,
